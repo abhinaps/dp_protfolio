@@ -245,13 +245,46 @@ a:hover{
         padding: 3rem;
         font-size: 300%;
     }
+    
+    .about-heading{
+        font-size: 5rem;
+    }
     .content{
         grid-column: 1/-1;
+
+    }
+    .skills{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills-heading{
+        font-size: 5rem;
+    }
+    .pro-heading{
+        font-size: 5rem;
+    }
+    .project{
+        font-size: 3rem;
     }
     .contact-heading{
-        font-size: 200%;
+        font-size: 5rem;
     }
     .links{
         width: 80%;
+    }
+    .map{
+        display: none;
+    }
+    .form{
+        grid-column: 1/-1;
+    }
+    @keyframes square {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        100% {
+            -webkit-transform: translateY(3250px) rotate(630deg);
+            transform: translateY(3250px) rotate(630deg);
+        }
     }
 }
